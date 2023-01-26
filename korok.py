@@ -27,4 +27,4 @@ def konzolra_ir(eredmeny):
     print("Első idős ember korának helye a listában:", eredmeny)
 
 def fajl_ir(eredmeny):
-    open("oreg.txt", "w", encoding="utf-8").write("Első idős ember korának helye a listában:"+ eredmeny)
+    open("oreg.txt", "w", encoding="utf-8").write("Első idős ember korának helye a listában: "+ str(eredmeny))

@@ -1,7 +1,7 @@
-from szam import szam as trolled
+from szam import szam
 from korok import korok
 from gombak import gombak
 
-#trolled()
-#korok()
+szam()
+korok()
 gombak()
